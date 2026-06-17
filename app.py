@@ -9,6 +9,30 @@ st.title("📚 PDF RAG Chatbot")
 # Green button CSS
 st.markdown("""
 <style>
+
+/* Full page background */
+.stApp {
+    background-color: black;
+    color: white;
+}
+
+/* Title and text */
+h1, h2, h3, p, label {
+    color: white !important;
+}
+
+/* Text input box */
+.stTextInput input {
+    background-color: #222222;
+    color: white;
+}
+
+/* Upload box */
+[data-testid="stFileUploader"] {
+    color: white;
+}
+
+/* Green Ask Button */
 div.stButton > button {
     background-color: green;
     color: white;
@@ -16,6 +40,7 @@ div.stButton > button {
     border-radius: 10px;
     padding: 10px 20px;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
