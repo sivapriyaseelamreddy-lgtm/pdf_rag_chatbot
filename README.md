@@ -39,6 +39,6 @@ Embeddings
 Vector Database integration
 Proper Retrieval-Augmented Generation (RAG)
 
-Author
+# Author
 
 Mohana Siva Priya
